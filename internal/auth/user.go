@@ -5,5 +5,6 @@ type User struct {
 	About string
 	Username string
 	Password string //Нужно перезагрузить
+	Number string
 	
 }
