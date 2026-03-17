@@ -1,6 +1,8 @@
 package auth
 
-
-User type struct {
-	
+type User struct {
+	Photo string,
+	About string,
+	Username string,
+	Password string, //Нужно перезагрузить
 }
