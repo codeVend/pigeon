@@ -9,7 +9,7 @@ func CheckCookies() {
 }
 type Service struct{}
 
-func (s *Service) Register(user *User); error {
+func (s *Service) Register(user *User) error {
 	if user.Username == "" {
 		return fmt.Errorf("Имя пустое")
 	} else {
