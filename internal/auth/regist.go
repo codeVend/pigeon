@@ -17,8 +17,3 @@ func (s *Service) Register(user *User) error {
 		return nil
 	}
 }
-func NewUser(Username string, Number string, Password string, ID int, Email string) {
-
-	
-
-}

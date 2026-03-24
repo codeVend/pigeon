@@ -9,3 +9,5 @@ type User struct {
 	ID int `json:"id"`
 	Email string `json:"email"`
 }
+func NewUser(Username string, Number string, Password string, ID int, Email string) {
+}
