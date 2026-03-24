@@ -4,6 +4,8 @@ type User struct {
 	Photo string
 	About string
 	Username string
-	Password string //Нужно перезагрузить
+	Password string //Нужно захэшить
 	Number string
+	ID int
+	Email string
 }
