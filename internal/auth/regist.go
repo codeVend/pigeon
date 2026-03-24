@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"net/http"
+	"fmt"
 )
 
 func CheckCookies() {
