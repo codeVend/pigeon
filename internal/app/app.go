@@ -7,7 +7,7 @@ import (
 
 func Run() error {
 	authService := &auth.Service{}
-	handler := &http.Handler{AuthService: authService}
+	handler := &http.NewHandler{AuthService: authService}
 
 	testUser := auth.User{
 		ID:       1,
