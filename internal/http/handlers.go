@@ -1,7 +1,7 @@
 package http
 
 import (
-		"pigeon/internal/auth"
+		"github.com/codeVend/pigeon/internal/auth"
 		"net/http"
 	)
 

@@ -1,3 +1,3 @@
-module github.com/dlubavin20-creator/pigeon
+module github.com/codeVend/pigeon
 
 go 1.21

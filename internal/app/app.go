@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/pigeon/internal/auth"
-	"pigeon/internal/http"
+	"github.com/codeVend/pigeon/internal/auth"
+	"github.com/codeVend/pigeon/internal/http"
 )
 
 func Run() error {
