@@ -16,5 +16,5 @@ func Run() error {
 		Password: "1234",
 	}
 
-	return handler.HandleRegister(testUser)
+	return handler.HandleRegister(&testUser)
 }
