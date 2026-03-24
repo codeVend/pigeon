@@ -1,7 +1,7 @@
 package app
 
 import (
-	"pigeon/internal/auth"
+	"github.com/pigeon/internal/auth"
 	"pigeon/internal/http"
 )
 
