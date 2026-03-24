@@ -1,11 +1,11 @@
 package auth
 
 type User struct {
-	Photo string
-	About string
-	Username string
-	Password string //Нужно захэшить
-	Number string
-	ID int
-	Email string
+	Photo string `json:"photo"`
+	About string `json:"about"`
+	Username string `json:"username"`
+	Password string `json:"password"` //Нужно захэшить
+	Number string `json:"number"`
+	ID int `json:"id"`
+	Email string `json:"email"`
 }
