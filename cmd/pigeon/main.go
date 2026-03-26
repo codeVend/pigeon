@@ -1,5 +1,5 @@
 package main
-import "github.com/codeVend/internal/app"
+import "github.com/codeVend/pigeon/internal/app"
 func main() {
-	
+	app.Run()
 }
